@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/DisplayRandomNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userNumberInput"
+        android:inputType="number"
+        android:maxLength="1"
+        android:digits="123456"
+        android:textAlignment="center"
+        android:hint="Input number 1-6"/>
+
+    <Button
+        android:id="@+id/NumberGeneratorRandom"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Click To Roll The Dice" />
+
+    <TextView
+        android:id="@+id/Outputbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
